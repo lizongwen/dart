@@ -12,11 +12,12 @@ void main() {
   print(str4 + "New");
   print(str4 * 5); //字符串复制5次
   print(str3 == str4);
-  print(str4[1]);
+  print(str4[1]);//h
   print('-----------------');
   int a = 1;
   int b = 2;
-  print("id$a");
+  String d="\$";
+  print('id$a$d');
   print("id${a + 1}");
   print("a + b = ${a + b}");
   print("a = $a");
