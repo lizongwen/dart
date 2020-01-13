@@ -19,13 +19,17 @@ class Point3 {
 }
 
 class Point4 {
-  var x, y;
-  Point4(this.x, this.y);
+  var x, y, z;
+  Point4(this.x, this.y) {
+    z = 5;
+  }
 }
 
 class Point5 {
-  var x, y;
+  var x, y, z;
   Point5(a, b)
       : x = a,
-        y = b;
+        y = b {
+    z = 5;
+  }
 }
