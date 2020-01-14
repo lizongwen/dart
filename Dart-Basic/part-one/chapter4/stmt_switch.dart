@@ -24,7 +24,7 @@ void main(){
       print("Java is my favorite");
       continue Test;
 //      break;
-    case "Python":ruhop]
+    case "Python":
       print("Python is my favorite");
       break;
     default:
