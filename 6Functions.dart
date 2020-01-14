@@ -5,6 +5,7 @@ void main() {
   print(fnb());
   print(fnc());
   print(fnd());
+  print(fne());
   print('----------------');
   l1.forEach((item) {
     print(item);
@@ -30,4 +31,11 @@ fnc() => 5 > 1;
 
 fnd() => print(999);
 
+fne() => fne1();
+
 List l1 = [1, 2];
+
+fne1(){
+  print(8888);
+  return 88889;
+}
