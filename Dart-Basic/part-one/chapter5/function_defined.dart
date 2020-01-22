@@ -10,7 +10,6 @@ void main() {
   }
 
   String fun4(val) => val;
-
   //-------------------------------
   var fun5 = (val) {
     return val;
