@@ -43,9 +43,9 @@ List listTimes3(List list, Function times) {
   return list;
 }
 
-List listTimes4(List list, String f(str)) {
+List listTimes4(List list, String fun(str)) {
   for (var index = 0; index < list.length; index++) {
-    list[index] = f(list[index]);
+    list[index] = fun(list[index]);
   }
   return list;
 }
@@ -60,3 +60,4 @@ Function times1 = (str) {
 String times2(str) {
   return str * 3;
 }
+
