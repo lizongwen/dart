@@ -1,8 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 工厂构造方法
- * @Date: 2018/10/29
- */
 class Logger {
   final String name;
 

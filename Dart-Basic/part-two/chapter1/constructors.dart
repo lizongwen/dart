@@ -1,8 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 构造方法
- * @Date: 2018/10/29
- */
 void main() {
     var person = new Person("Tom",20,"Male");
     new Person.withName("John");
@@ -17,6 +12,7 @@ class Person{
 
   Person(this.name,this.age,this.gender);
 
+  //命名构造方法
   Person.withName(String name){
     this.name = name;
   }

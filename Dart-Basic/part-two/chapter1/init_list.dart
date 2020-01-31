@@ -1,8 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 初始化列表
- * @Date: 2018/10/29
- */
 void main() {
     var person = new Person("Tom", 20, "Male");
 }

@@ -1,8 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 对象操作符
- * @Date: 2018/10/29
- */
 void main() {
 //  Person person = new Person();
 //  person?.name;
@@ -18,8 +13,8 @@ void main() {
 
   new Person()
     ..name = "Tom"
-        ..age = 20
-        ..work();
+    ..age = 20
+    ..work();
 }
 
 class Person{
