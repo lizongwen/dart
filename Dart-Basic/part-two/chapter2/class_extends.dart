@@ -1,9 +1,4 @@
 import 'person.dart';
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 继承
- * @Date: 2018/10/30
- */
 void main() {
 //  var student = new Student();
 //  student.study();
@@ -18,7 +13,6 @@ void main() {
   Person person = new Student();
   person.name = "Tom";
   person.age = 18;
-
   if(person is Student){
     person.study();
   }
@@ -39,6 +33,11 @@ class Student extends Person{
   @override
   void run() {
     print("Student run...");
+  }
+  
+  @override
+  String toString() {
+    return "Name iss $name,Age is $age";
   }
 
 }

@@ -1,13 +1,14 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 枚举
- * @Date: 2018/10/31
- */
-
 //const spring = 0;
 //const summer = 1;
 //const autumn = 2;
 //const winter = 3;
+
+enum Season{
+  spring,
+  summer,
+  autumn,
+  winter
+}
 
 void main() {
   var currentSeason  = Season.winter;
@@ -30,9 +31,3 @@ void main() {
   }
 }
 
-enum Season{
-  spring,
-  summer,
-  autumn,
-  winter
-}

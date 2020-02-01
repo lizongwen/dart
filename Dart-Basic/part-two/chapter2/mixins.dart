@@ -1,8 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: Mixins
- * @Date: 2018/10/31
- */
 void main() {
 //  var d = new D();
 //  d.a();
@@ -77,7 +72,10 @@ class Tyre{
   void run(){}
 }
 
-class Car = Tyre with ElectricEngine;
+class Car = Tyre with ElectricEngine;// 是下面的简写
+// class Car extends Tyre with ElectricEngine{
+      // String name;//本身特有属性
+// }
 
 class Bus = Tyre with OilEngine;
 

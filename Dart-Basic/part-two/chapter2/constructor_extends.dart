@@ -1,9 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 继承中的构造方法
- * @Date: 2018/10/30
- */
-
 void main() {
   var student = new Student("Tom","Male");
 

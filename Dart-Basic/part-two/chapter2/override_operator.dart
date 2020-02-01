@@ -1,9 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 覆写操作符
- * @Date: 2018/10/31
- */
-
 void main() {
 
   var person1 = new Person(20);

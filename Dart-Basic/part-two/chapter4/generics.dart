@@ -1,8 +1,3 @@
-/**
- * @Author: 雷◕‿◕宇
- * @Description: 泛型
- * @Date: 2018/10/31
- */
 void main() {
   var list = new List<int>();
   list.add(1);
